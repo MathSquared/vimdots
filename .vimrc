@@ -9,8 +9,9 @@ if has('gui_running')
     " Set up Solarized if GUI is running
     set background=dark
     colorscheme solarized
-else
-    " Otherwise, set colorscheme Pablo (works well w/ 16 colors)
+elseif has('win32')
+    " Otherwise on Windows, set colorscheme Pablo (works well w/ 16 colors)
+    " (On Ubuntu, default is OK by me)
     colorscheme pablo
 endif
 
