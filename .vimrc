@@ -38,6 +38,9 @@ set hls is
 " Only one space when joining lines at sentence boundaries
 set nojs
 
+" Wrap visually at word boundaries, not in the middle of a word
+set lbr
+
 " Change working directory to home folder on Windows (not system32)
 if has('win32')
     cd $HOME
