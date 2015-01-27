@@ -41,6 +41,9 @@ set nojs
 " Wrap visually at word boundaries, not in the middle of a word
 set lbr
 
+" Because F1 is annoying
+inoremap <F1> <Esc>
+
 " Change working directory to home folder on Windows (not system32)
 if has('win32')
     cd $HOME
