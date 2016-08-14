@@ -6,9 +6,9 @@ syntax enable
 
 " Initialize a color scheme appropriate for the environment
 if has('gui_running')
-    " Set up Solarized if GUI is running
+    " Set up Molokai if GUI is running
     set background=dark
-    colorscheme solarized
+    colorscheme molokai
 elseif has('win32')
     " Otherwise on Windows, set colorscheme Pablo (works well w/ 16 colors)
     " (On Ubuntu, default is OK by me)
