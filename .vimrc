@@ -5,8 +5,8 @@ execute pathogen#infect()
 syntax enable
 
 " Initialize a color scheme appropriate for the environment
-if has('gui_running')
-    " Set up Molokai if GUI is running
+if has('gui_running') || &t_Co == 256
+    " Set up Molokai if GUI is running or we have a 256 color terminal
     set background=dark
     colorscheme molokai
 elseif has('win32')
