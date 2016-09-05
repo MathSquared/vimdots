@@ -3,6 +3,7 @@ execute pathogen#infect()
 
 " Set up syntax highlighting
 syntax enable
+filetype plugin indent on
 
 " Initialize a color scheme appropriate for the environment
 if has('gui_running') || &t_Co == 256
