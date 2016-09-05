@@ -10,6 +10,6 @@
 [submodule ".vim/bundle/vim-better-whitespace"]
 	path = .vim/bundle/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace.git
-[submodule ".vim/bundle/vim2hs"]
-	path = .vim/bundle/vim2hs
-	url = https://github.com/dag/vim2hs.git
+[submodule ".vim/bundle/vim-haskell-indent"]
+	path = .vim/bundle/vim-haskell-indent
+	url = https://github.com/itchyny/vim-haskell-indent
