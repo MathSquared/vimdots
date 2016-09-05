@@ -45,6 +45,9 @@ set lbr
 " Because F1 is annoying
 inoremap <F1> <Esc>
 
+" Open all folds http://stackoverflow.com/q/8316139/1979005
+au BufWinEnter * normal zR
+
 " Change working directory to home folder on Windows (not system32)
 if has('win32')
     cd $HOME
