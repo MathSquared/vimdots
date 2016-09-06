@@ -48,6 +48,9 @@ inoremap <F1> <Esc>
 " Open all folds http://stackoverflow.com/q/8316139/1979005
 au BufWinEnter * normal zR
 
+" Syntastic options
+let g:syntastic_python_pylint_args = "--disable=line-too-long"
+
 " Change working directory to home folder on Windows (not system32)
 if has('win32')
     cd $HOME
