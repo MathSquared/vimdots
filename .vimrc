@@ -53,6 +53,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_cpp_compiler_options = "-std=c++11"
 let g:syntastic_python_pylint_args = "--disable=line-too-long"
 
+" Syntax options
+let g:jsx_ext_required = 0
+
 " Change working directory to home folder on Windows (not system32)
 if has('win32')
     cd $HOME
