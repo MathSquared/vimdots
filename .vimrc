@@ -41,6 +41,7 @@ au Filetype go,make setl noexpandtab " Golang, Makefile: use tabs, not spaces
 
 " Syntastic options
 let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_compiler_options = "-std=c++11"
 let g:syntastic_go_checkers = ["go", "gofmt"]
 let g:syntastic_python_pylint_args = "--disable=line-too-long,missing-docstring,invalid-name"
