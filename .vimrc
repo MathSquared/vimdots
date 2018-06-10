@@ -39,7 +39,7 @@ au BufWinEnter * normal zR
 " Syntastic options
 let g:syntastic_check_on_open = 1
 let g:syntastic_cpp_compiler_options = "-std=c++11"
-let g:syntastic_python_pylint_args = "--disable=line-too-long"
+let g:syntastic_python_pylint_args = "--disable=line-too-long,missing-docstring,invalid-name"
 
 " Syntax options
 let g:jsx_ext_required = 0
