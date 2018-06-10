@@ -36,6 +36,9 @@ inoremap <F1> <Esc>
 " Open all folds http://stackoverflow.com/q/8316139/1979005
 au BufWinEnter * normal zR
 
+" Filetype-specific indent options
+au Filetype go,make setl noexpandtab " Golang, Makefile: use tabs, not spaces
+
 " Syntastic options
 let g:syntastic_check_on_open = 1
 let g:syntastic_cpp_compiler_options = "-std=c++11"
