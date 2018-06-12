@@ -29,6 +29,7 @@ set ai
 set hls is
 set nojs " One space when joining after period
 set lbr " Visually wrap at word boundaries
+set ls=2 " Always show the filename at the bottom
 
 " Because F1 is annoying
 inoremap <F1> <Esc>
