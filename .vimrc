@@ -40,6 +40,9 @@ au BufWinEnter * normal zR
 " Filetype-specific indent options
 au Filetype go,make setl noexpandtab " Golang, Makefile: use tabs, not spaces
 
+" Enable manpage viewing in Vim (:Man command)
+ru ftplugin/man.vim
+
 " Syntastic options
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
