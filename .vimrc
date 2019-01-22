@@ -39,6 +39,7 @@ au BufWinEnter * normal zR
 
 " Filetype-specific indent options
 au Filetype go,make setl noexpandtab " Golang, Makefile: use tabs, not spaces
+au Filetype man setl tabstop=8 shiftwidth=8 noexpandtab " Manpages: use 8-wide tabs
 
 " Enable manpage viewing in Vim (:Man command)
 ru ftplugin/man.vim
