@@ -22,7 +22,7 @@ if has('gui_running') && has('win32')
 endif
 
 " Major settings
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=4 shiftwidth=0 expandtab
 set showcmd
 set nu cul
 set ai
